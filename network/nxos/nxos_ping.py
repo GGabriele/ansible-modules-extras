@@ -175,7 +175,7 @@ def get_ping_results(ping_command, module, transport, kwargs):
 
 
 def main():
-    argument_spec=dict(
+    argument_spec = dict(
             dest=dict(required=True),
             count=dict(required=False, default=4),
             vrf=dict(required=False),
